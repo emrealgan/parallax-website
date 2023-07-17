@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&');
+*
+{   
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+html, body
+{
+    height: 100%;
+}
+.part1
+{   
+    opacity: 0.7;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display:flex; 
+    justify-content:center; 
+}
+.part1-head 
+{   
+    color: #fff;
+    letter-spacing: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 22%;
+}
+.border
+{   
+    text-align: center;
+    background-color: #111;
+    padding: 18px;
+}
+.part2
+{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.part2-head
+{   
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 40px;
+}
+.lor-2
+{   
+    font-size: 1.2em;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    letter-spacing: 0.2em;
+}
+.part3{
+    opacity: 0.7;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    display:flex; 
+    justify-content:center; 
+    background-size: cover;
+}
+.part3-head
+{   
+    color: #fff;
+    letter-spacing: 0.25em;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10%;
+}
+.part4
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+.part4-head
+{   
+    padding-top: 60px;
+    font-size: 28px;
+    text-align: center;
+}
+.lor4
+{
+    font-size: 1.15em;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+}
+.part5
+{
+    min-height: 400px;
+    opacity: 0.7;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex; 
+    justify-content:center; 
+}
+.part5-head
+{   
+    font-size: 1.6em;
+    letter-spacing: 0.4em;
+    color: #fff;
+    margin-top: 12%;
+}
